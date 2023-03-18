@@ -13,7 +13,7 @@ admins = {}
 
 SESSION_NAME = getenv("SESSION_NAME")
 
-if str(getenv("STRING_SESSION2")).strip() == "":
+if str(getenv("STRING_SESSION2")).strip() == "BQA4TqcHwciJnqIkENMmtZTlCSaCfDxhUENL301gGBzjQhiOH3zz3uMHb1wWS0sZNN4mhI4MArwvro16eHTfVyLXoLjA6-1dMyNAFu4-2CuDXtC6k9bwDkHXfQKY-Km4LQE_nyvmWiNBO6UEFgGJX6rbaDnGzHYxpUta4JoGi8jVOQ7S0bLJJT5GzuabPJk7bncotzf1SYcCWaDjtF9SIEEGoh13qwaGZ3HZq28OBPvuTpqy7nYqaeSQit58JLRccBFq_7g47suJlG44FnAqlG01uNOqd4atuBlYqJn-pZaSbVdutDtyIKved_p_yhnrXT17HDQxeVQdHKKNp2no-BAvAAAAAT4NoEIA":
     SESSION2 = str(None)
 else:
     SESSION2 = str(getenv("STRING_SESSION2"))
@@ -33,18 +33,18 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5873163824:AAESJ3RYzSXu5evI6wd-YwQ7IwL5lYf0ycA")
 BOT_NAME = getenv("BOT_NAME", "Umk")
 
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
+API_ID = int(getenv("API_ID", "18329555"))
+API_HASH = getenv("API_HASH", "7bf83fddf8244fddfb270701e31470a8")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority")
-OWNER_NAME = getenv("OWNER_NAME", "Zaid")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Timesisnotwaiting")
-ALIVE_NAME = getenv("ALIVE_NAME", "Zaid")
-BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
-OWNER_ID = getenv("OWNER_ID", "1669178360")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Zaid2_Assistant")
+OWNER_NAME = getenv("OWNER_NAME", "Fadil")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "CR7Suuuiiiii")
+ALIVE_NAME = getenv("ALIVE_NAME", "Fadil")
+BOT_USERNAME = getenv("BOT_USERNAME", "vcvcvcvcvvvcccbot")
+OWNER_ID = getenv("OWNER_ID", "5336047682")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "FDAssistant")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "TheUpdatesChannel")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
